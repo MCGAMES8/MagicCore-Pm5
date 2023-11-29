@@ -72,7 +72,6 @@ class GiveadminrankForm extends MenuForm
                 $web = new Webhook(MagicCore::getInstance()->getConfig()->get("log-webhook-url"));
                 $colorval = hexdec("FFBF00");
                 $msg = new Message();
-                $msg->setUsername("MagicGames-Log");
                 $msg->setAvatarURL("https://cdn-icons-png.flaticon.com/128/3039/3039367.png");
                 $e = new Embed();
                 $e->setColor((int) $colorval);
